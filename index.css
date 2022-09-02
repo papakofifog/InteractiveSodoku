@@ -1,0 +1,26 @@
+.sodoku--td{
+    border: 1px solid silver;
+    box-sizing: border-box;
+    justify-content: center;
+    padding: 20px;
+}
+
+.sodoku--td--faulty{
+    background-color: rgb(227, 52, 52);
+}
+
+
+td:nth-child(4){
+    border-left: 1px solid ;
+}
+
+.title{
+    color: aqua;
+    padding: 20px;
+    text-align: center;
+}
+
+.sodoku-table{
+    margin: 5px auto 10px auto;
+    width: 450px;
+}
